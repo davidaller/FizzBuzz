@@ -13,11 +13,20 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+    
+        
+        
+        let x = 10
+        let y = 100
+        for i in x...y {
+            if (i % x == 0 ) {
+            print (i)
+            }
     }
-
-    for i in 1...20 {
-    if (i % 3 == 0) && (i %)
+    
+    
     }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
